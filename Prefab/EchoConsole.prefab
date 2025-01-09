@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7181761501944165417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7201383833631345419}
+  - component: {fileID: 1781985292481710444}
+  - component: {fileID: 4748046127083218927}
+  - component: {fileID: 1338349661208015482}
+  m_Layer: 0
+  m_Name: EchoConsole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7201383833631345419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181761501944165417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781985292481710444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181761501944165417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e19c679c1c07742803352b30fcfc69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activateConsole:
+    m_Name: Activate Console
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 726ce7d4-7ec2-4bfe-8cde-82b3e6fffbd6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b9b6900f-d722-4555-986c-8166c82d4a69
+      m_Path: <Keyboard>/backquote
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Activate Console
+      m_Flags: 0
+    m_Flags: 0
+  m_compileCommand:
+    m_Name: Compile Command
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: cfd86fad-ae8d-4bb2-a4a9-8cd84e484307
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 95720575-af17-41ca-b6d2-8f93ff833223
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Compile Command
+      m_Flags: 0
+    m_Flags: 0
+  m_CodeEchoUI: {fileID: 1338349661208015482}
+--- !u!114 &4748046127083218927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181761501944165417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ba208dae21d414aacca9e396647acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CodeEchoUI: {fileID: 0}
+--- !u!114 &1338349661208015482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181761501944165417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dde2ee75f2d70b488d02f4151c19437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CanvasTransform: {fileID: 0}
+  m_InputField: {fileID: 0}
+  m_MethodListPanel: {fileID: 0}
+  m_MethodListViewport: {fileID: 0}
+  m_Button: {fileID: 9059202253751751564, guid: f996ff03af4988d46af62738bd8bb02e, type: 3}
