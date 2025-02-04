@@ -264,62 +264,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 325784329145975171, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_ButtonPrefab
-      value: 
-      objectReference: {fileID: 9059202253751751564, guid: f996ff03af4988d46af62738bd8bb02e, type: 3}
-    - target: {fileID: 1057585997977762453, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_activateConsole.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057585997977762453, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_activateConsole.m_SingletonActionBindings.Array.data[1].m_Id
-      value: 7116b41d-d9b4-43c7-bcfc-f0da1af2753e
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057585997977762453, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_activateConsole.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/r
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057585997977762453, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_activateConsole.m_SingletonActionBindings.Array.data[1].m_Action
-      value: Activate Console
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CaretWidth
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CaretColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CaretColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CaretColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CaretBlinkRate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_CustomCaretColor
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_SelectionColor.b
-      value: 0.5561686
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_SelectionColor.g
-      value: 0.9339623
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402293406727120495, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_SelectionColor.r
-      value: 0.39208794
-      objectReference: {fileID: 0}
     - target: {fileID: 1638627662992884151, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -363,14 +307,6 @@ PrefabInstance:
     - target: {fileID: 3672949709485236277, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
       propertyPath: m_Name
       value: EchoConsoleWrapper
-      objectReference: {fileID: 0}
-    - target: {fileID: 6012561568783154017, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904680651794104822, guid: feedd2ed23accca4fafb31d76c7fddf2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

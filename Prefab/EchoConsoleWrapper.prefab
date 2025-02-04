@@ -46,6 +46,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402293406727120495}
     - target: {fileID: 1338349661208015482, guid: c4393280986db8d4abf3cfa783772c8b, type: 3}
+      propertyPath: m_ButtonPrefab
+      value: 
+      objectReference: {fileID: 9059202253751751564, guid: f996ff03af4988d46af62738bd8bb02e, type: 3}
+    - target: {fileID: 1338349661208015482, guid: c4393280986db8d4abf3cfa783772c8b, type: 3}
       propertyPath: m_CanvasTransform
       value: 
       objectReference: {fileID: 3696016747949921133}
@@ -122,6 +126,46 @@ PrefabInstance:
     - target: {fileID: 79763302365778102, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
       propertyPath: m_Name
       value: ConsoleCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 79763302365778102, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CaretWidth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CaretColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CaretColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CaretColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CaretBlinkRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_CustomCaretColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_SelectionColor.b
+      value: 0.5561686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_SelectionColor.g
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692322850109148600, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
+      propertyPath: m_SelectionColor.r
+      value: 0.39208794
       objectReference: {fileID: 0}
     - target: {fileID: 6998993010085132474, guid: 00089fec5a18e4f439a2ebdff829fad9, type: 3}
       propertyPath: m_Pivot.x
